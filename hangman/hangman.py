@@ -6,7 +6,6 @@ d_s()
 
 import random
 
-
 def play():
     print("HANGMAN")
     words = ['python', 'java', 'javascript', 'php']
@@ -17,30 +16,32 @@ def play():
 
     while attempts > 0:
         print("\n" + "".join(guessed_word))
-        guess = input("Введіть літери: > ")
+        guess = input("Введіть летеру: > ")
+
+        if len(guess) != 1:
+            print("Ви повинні ввести одну літеру")
+            continue
+
+        if not guess.isalpha() or not guess.islower():
+            print("Будь ласка, введіть малу англійську літеру")
+            continue
 
         if guess in guessed_letters:
-            print("Літера вже використана")
-            attempts -= 1
-        else:
-            guessed_letters.add(guess)
+            print("Ви вже здогадалися, що це за літера")
+            continue
 
-            if guess in secret_word:
-                found_improvement = False
-                for i, letter in enumerate(secret_word):
-                    if letter == guess and guessed_word[i] == "-":
-                        guessed_word[i] = guess
-                        found_improvement = True
-                if not found_improvement:
-                    print("У цьому слові відсутні наступні літери")
-                    attempts -= 1
-            else:
-                print("Спробуй іншу літеру")
-                attempts -= 1
+        guessed_letters.add(guess)
+
+        if guess in secret_word:
+            for i, letter in enumerate(secret_word):
+                if letter == guess:
+                    guessed_word[i] = guess
+        else:
+            print("Ця буква не з'являється в слові")
+            attempts -= 1
 
         if "".join(guessed_word) == secret_word:
-            print("\n" + secret_word)
-            print("Ви вгадали слово!")
+            print(f"\nYou guessed the word {secret_word}!")
             print("Ти вижив!")
             return
 
