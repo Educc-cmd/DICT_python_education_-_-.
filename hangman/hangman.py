@@ -10,7 +10,10 @@ def play():
     print("HANGMAN")
     words = ['python', 'java', 'javascript', 'php']
     secret_word = random.choice(words)
-    guess = input("Спробуй вгадати слово: > ")
+    hint = secret_word[:3] + "-" * (len(secret_word) - 3)
+
+    print(f"Guess the word {hint}: ", end="")
+    guess = input("> ")
 
     if guess.lower() == secret_word:
         print("Ти вгадав!")
