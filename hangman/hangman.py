@@ -4,9 +4,12 @@ def d_s():
 
 d_s()
 
+import random
+
 def play():
     print("HANGMAN")
-    secret_word = "python"
+    words = ['python', 'java', 'javascript', 'php']
+    secret_word = random.choice(words)
     guess = input("Спробуй вгадати слово: > ")
 
     if guess.lower() == secret_word:
@@ -14,5 +17,4 @@ def play():
     else:
         print("Спробуй ще раз!")
 
-d_s()
 play()
