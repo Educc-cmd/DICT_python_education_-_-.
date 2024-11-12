@@ -17,28 +17,35 @@ def play():
 
     while attempts > 0:
         print("\n" + "".join(guessed_word))
-        guess = input("Введіть букву: > ")
+        guess = input("Введіть літери: > ")
 
         if guess in guessed_letters:
-            print("Ви вже вгадали букву")
+            print("Літера вже використана")
+            attempts -= 1
         else:
             guessed_letters.add(guess)
 
             if guess in secret_word:
+                found_improvement = False
                 for i, letter in enumerate(secret_word):
-                    if letter == guess:
+                    if letter == guess and guessed_word[i] == "-":
                         guessed_word[i] = guess
+                        found_improvement = True
+                if not found_improvement:
+                    print("У цьому слові відсутні наступні літери")
+                    attempts -= 1
             else:
+                print("Спробуй іншу літеру")
                 attempts -= 1
-                print("Такої літери немає в данному слові")
 
         if "".join(guessed_word) == secret_word:
             print("\n" + secret_word)
-            print("Ти вгадав!")
+            print("Ви вгадали слово!")
+            print("Ти вижив!")
             return
 
     print("Ти програв!")
     print("Дякую за гру!")
-    print("Наступне завдання буде важче :).")
+    print("Побачимо, наскільки добре ви впоралися з завданням на наступному етапі.")
 
 play()
