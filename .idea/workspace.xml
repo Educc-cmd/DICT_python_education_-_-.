@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="coffeemachine 4-st stage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ohYTFanMtm4RJFwBn3M6iYsG4P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.DF.executor": "Run",
+    "Python.chatbot.executor": "Run",
+    "Python.coffeemachine.executor": "Run",
+    "Python.d.executor": "Run",
+    "Python.dinnerparty.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.pencils_game.executor": "Run",
+    "Python.sdf.executor": "Run",
+    "Python.tictactoe.executor": "Run",
+    "Python.zoo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/coffeemachine",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.coffeemachine">
+    <configuration name="DF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coffeemachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coffeemachine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeemachine/coffeemachine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pencils_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pencils_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pencils_game/pencils_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tictactoe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoe/sdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tictactoe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoe/tictactoe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.coffeemachine" />
+        <item itemvalue="Python.pencils_game" />
+        <item itemvalue="Python.tictactoe" />
+        <item itemvalue="Python.sdf" />
+        <item itemvalue="Python.DF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="" />
+      <created>1731323280955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731323280955</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ChatBot 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731330375514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731330375514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ChatBot 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731330442821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731330442821</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ChatBot 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731330557556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731330557556</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ChatBot 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731330584903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731330584903</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ChatBot 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731330668168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731330668168</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Zoo 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731331622430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731331622430</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Zoo 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731331684699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731331684699</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hangman 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731416961721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731416961721</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Hangman 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731432969267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731432969267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Hangman 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731433360562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731433360562</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Hangman 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731446270351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731446270351</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Hangman 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731446479782</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731446479782</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Hangman 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731446811049</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731446811049</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Hangman 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731446960030</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731446960030</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Hangman 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731449169505</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731449169505</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Hangman 6-st stage">
+      <option name="closed" value="true" />
+      <created>1731450490567</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731450490567</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Hangman 7-st stage">
+      <option name="closed" value="true" />
+      <created>1731450944433</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731450944433</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Hangman 8-st stage">
+      <option name="closed" value="true" />
+      <created>1731451243973</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731451243973</updated>
+    </task>
+    <task id="LOCAL-00019" summary="DinnerParty 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731618579088</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618579088</updated>
+    </task>
+    <task id="LOCAL-00020" summary="DinnerParty 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731619209023</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619209023</updated>
+    </task>
+    <task id="LOCAL-00021" summary="DinnerParty 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731619454822</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619454822</updated>
+    </task>
+    <task id="LOCAL-00022" summary="DinnerParty 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731619851585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619851586</updated>
+    </task>
+    <task id="LOCAL-00023" summary="tictactoe 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731621430996</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731621430996</updated>
+    </task>
+    <task id="LOCAL-00024" summary="tictactoe 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731622585307</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731622585307</updated>
+    </task>
+    <task id="LOCAL-00025" summary="tictactoe 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731686971579</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731686971579</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731687139112</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731687139112</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731688109857</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688109857</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731688373491</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688373491</updated>
+    </task>
+    <task id="LOCAL-00029" summary="pencils 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731919182027</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919182027</updated>
+    </task>
+    <task id="LOCAL-00030" summary="pencils 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731919502500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919502500</updated>
+    </task>
+    <task id="LOCAL-00031" summary="pencils 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731919887326</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919887326</updated>
+    </task>
+    <task id="LOCAL-00032" summary="coffeemachine 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731920662788</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731920662788</updated>
+    </task>
+    <task id="LOCAL-00033" summary="coffeemachine 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731921251449</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731921251449</updated>
+    </task>
+    <task id="LOCAL-00034" summary="coffeemachine 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731928140189</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731928140189</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature/tictactoe" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ChatBot 5-st stage" />
+    <MESSAGE value="Zoo 1-st stage" />
+    <MESSAGE value="Zoo 2-st stage" />
+    <MESSAGE value="Hangman 1-st stage" />
+    <MESSAGE value="Hangman 2-st stage" />
+    <MESSAGE value="Hangman 3-st stage" />
+    <MESSAGE value="Hangman 4-st stage" />
+    <MESSAGE value="Hangman 5-st stage" />
+    <MESSAGE value="Hangman 6-st stage" />
+    <MESSAGE value="Hangman 7-st stage" />
+    <MESSAGE value="Hangman 8-st stage" />
+    <MESSAGE value="DinnerParty 1-st stage" />
+    <MESSAGE value="DinnerParty 3-st stage" />
+    <MESSAGE value="DinnerParty 4-st stage" />
+    <MESSAGE value="DinnerParty 5-st stage" />
+    <MESSAGE value="tictactoe 1-st stage" />
+    <MESSAGE value="tictactoe 2-st stage" />
+    <MESSAGE value="tictactoe 4-st stage" />
+    <MESSAGE value="tictactoe 5-st stage" />
+    <MESSAGE value="pencils 1-st stage" />
+    <MESSAGE value="pencils 2-st stage" />
+    <MESSAGE value="pencils 3-st stage" />
+    <MESSAGE value="coffeemachine 1-st stage" />
+    <MESSAGE value="coffeemachine 3-st stage" />
+    <MESSAGE value="coffeemachine 4-st stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="coffeemachine 4-st stage" />
+  </component>
+</project>
