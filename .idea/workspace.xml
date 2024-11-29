@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="coffeemachine 4-st stage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
+    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="pencils 3-st stage">
+      <change beforePath="$PROJECT_DIR$/pencils_game/pencils_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/pencils_game/pencils_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +36,10 @@
     "Python.tictactoe.executor": "Run",
     "Python.zoo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/coffeemachine",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "git-widget-placeholder": "feature/pencils"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.coffeemachine">
+  <component name="RunManager" selected="Python.pencils_game">
     <configuration name="DF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
@@ -448,31 +446,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731919887326</updated>
     </task>
-    <task id="LOCAL-00032" summary="coffeemachine 1-st stage">
-      <option name="closed" value="true" />
-      <created>1731920662788</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1731920662788</updated>
-    </task>
-    <task id="LOCAL-00033" summary="coffeemachine 3-st stage">
-      <option name="closed" value="true" />
-      <created>1731921251449</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1731921251449</updated>
-    </task>
-    <task id="LOCAL-00034" summary="coffeemachine 4-st stage">
-      <option name="closed" value="true" />
-      <created>1731928140189</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1731928140189</updated>
-    </task>
-    <option name="localTasksCounter" value="35" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,9 +499,6 @@
     <MESSAGE value="pencils 1-st stage" />
     <MESSAGE value="pencils 2-st stage" />
     <MESSAGE value="pencils 3-st stage" />
-    <MESSAGE value="coffeemachine 1-st stage" />
-    <MESSAGE value="coffeemachine 3-st stage" />
-    <MESSAGE value="coffeemachine 4-st stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="coffeemachine 4-st stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="pencils 3-st stage" />
   </component>
 </project>
