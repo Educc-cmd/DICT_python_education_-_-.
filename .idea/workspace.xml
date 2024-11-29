@@ -178,6 +178,7 @@
         <item itemvalue="Python.sdf" />
         <item itemvalue="Python.DF" />
         <item itemvalue="Python.dinnerparty" />
+        <item itemvalue="Python.hangman" />
       </list>
     </recent_temporary>
   </component>
@@ -472,6 +473,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="ChatBot 1-st stage" />
     <MESSAGE value="ChatBot 2-st stage" />
     <MESSAGE value="ChatBot 3-st stage" />
     <MESSAGE value="ChatBot 4-st stage" />
