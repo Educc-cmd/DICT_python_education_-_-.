@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="tictactoe 2-st stage">
+    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="coffeemachine 4-st stage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine/coffeemachine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +28,20 @@
   "keyToString": {
     "Python.DF.executor": "Run",
     "Python.chatbot.executor": "Run",
+    "Python.coffeemachine.executor": "Run",
     "Python.d.executor": "Run",
     "Python.dinnerparty.executor": "Run",
     "Python.hangman.executor": "Run",
+    "Python.pencils_game.executor": "Run",
     "Python.sdf.executor": "Run",
     "Python.tictactoe.executor": "Run",
     "Python.zoo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tictactoe"
+    "git-widget-placeholder": "feature/coffeemachine",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.sdf">
+  <component name="RunManager" selected="Python.coffeemachine">
     <configuration name="DF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
@@ -61,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dinnerparty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coffeemachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,33 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dinnerparty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coffeemachine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dinnerparty/dinnerparty.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hangman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FirstProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hangman" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hangman/hangman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeemachine/coffeemachine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,6 +100,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pencils_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pencils_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pencils_game/pencils_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coffeemachine" />
+        <item itemvalue="Python.pencils_game" />
         <item itemvalue="Python.tictactoe" />
         <item itemvalue="Python.sdf" />
         <item itemvalue="Python.DF" />
-        <item itemvalue="Python.dinnerparty" />
-        <item itemvalue="Python.hangman" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +392,87 @@
       <option name="project" value="LOCAL" />
       <updated>1731622585307</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="tictactoe 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731686971579</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731686971579</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731687139112</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731687139112</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731688109857</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688109857</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tictactoe 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731688373491</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688373491</updated>
+    </task>
+    <task id="LOCAL-00029" summary="pencils 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731919182027</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919182027</updated>
+    </task>
+    <task id="LOCAL-00030" summary="pencils 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731919502500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919502500</updated>
+    </task>
+    <task id="LOCAL-00031" summary="pencils 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731919887326</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919887326</updated>
+    </task>
+    <task id="LOCAL-00032" summary="coffeemachine 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731920662788</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731920662788</updated>
+    </task>
+    <task id="LOCAL-00033" summary="coffeemachine 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731921251449</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731921251449</updated>
+    </task>
+    <task id="LOCAL-00034" summary="coffeemachine 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731928140189</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731928140189</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +486,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/feature/tictactoe" />
                       </list>
                     </value>
                   </entry>
@@ -437,6 +520,14 @@
     <MESSAGE value="DinnerParty 5-st stage" />
     <MESSAGE value="tictactoe 1-st stage" />
     <MESSAGE value="tictactoe 2-st stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="tictactoe 2-st stage" />
+    <MESSAGE value="tictactoe 4-st stage" />
+    <MESSAGE value="tictactoe 5-st stage" />
+    <MESSAGE value="pencils 1-st stage" />
+    <MESSAGE value="pencils 2-st stage" />
+    <MESSAGE value="pencils 3-st stage" />
+    <MESSAGE value="coffeemachine 1-st stage" />
+    <MESSAGE value="coffeemachine 3-st stage" />
+    <MESSAGE value="coffeemachine 4-st stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="coffeemachine 4-st stage" />
   </component>
 </project>
