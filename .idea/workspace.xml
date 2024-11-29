@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="Hangman 8-st stage">
+    <list default="true" id="ab69a7c1-4577-459d-aed6-a6554d802807" name="Changes" comment="tictactoe 2-st stage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,38 +26,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.DF.executor": "Run",
     "Python.chatbot.executor": "Run",
     "Python.d.executor": "Run",
+    "Python.dinnerparty.executor": "Run",
     "Python.hangman.executor": "Run",
+    "Python.sdf.executor": "Run",
+    "Python.tictactoe.executor": "Run",
     "Python.zoo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/hangman"
+    "git-widget-placeholder": "feature/tictactoe"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.d">
-    <configuration name="chatbot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FirstProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatBot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChatBot/chatbot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sdf">
+    <configuration name="DF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +52,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dinnerparty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dinnerparty" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dinnerparty/dinnerparty.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,11 +136,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zoo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tictactoe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zoo/zoo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoe/sdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tictactoe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoe/tictactoe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,10 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tictactoe" />
+        <item itemvalue="Python.sdf" />
+        <item itemvalue="Python.DF" />
+        <item itemvalue="Python.dinnerparty" />
         <item itemvalue="Python.hangman" />
-        <item itemvalue="Python.d" />
-        <item itemvalue="Python.zoo" />
-        <item itemvalue="Python.chatbot" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +341,55 @@
       <option name="project" value="LOCAL" />
       <updated>1731451243973</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DinnerParty 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731618579088</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618579088</updated>
+    </task>
+    <task id="LOCAL-00020" summary="DinnerParty 3-st stage">
+      <option name="closed" value="true" />
+      <created>1731619209023</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619209023</updated>
+    </task>
+    <task id="LOCAL-00021" summary="DinnerParty 4-st stage">
+      <option name="closed" value="true" />
+      <created>1731619454822</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619454822</updated>
+    </task>
+    <task id="LOCAL-00022" summary="DinnerParty 5-st stage">
+      <option name="closed" value="true" />
+      <created>1731619851585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619851586</updated>
+    </task>
+    <task id="LOCAL-00023" summary="tictactoe 1-st stage">
+      <option name="closed" value="true" />
+      <created>1731621430996</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731621430996</updated>
+    </task>
+    <task id="LOCAL-00024" summary="tictactoe 2-st stage">
+      <option name="closed" value="true" />
+      <created>1731622585307</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731622585307</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +431,12 @@
     <MESSAGE value="Hangman 6-st stage" />
     <MESSAGE value="Hangman 7-st stage" />
     <MESSAGE value="Hangman 8-st stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hangman 8-st stage" />
+    <MESSAGE value="DinnerParty 1-st stage" />
+    <MESSAGE value="DinnerParty 3-st stage" />
+    <MESSAGE value="DinnerParty 4-st stage" />
+    <MESSAGE value="DinnerParty 5-st stage" />
+    <MESSAGE value="tictactoe 1-st stage" />
+    <MESSAGE value="tictactoe 2-st stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="tictactoe 2-st stage" />
   </component>
 </project>
