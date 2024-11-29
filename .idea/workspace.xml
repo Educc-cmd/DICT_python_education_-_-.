@@ -27,6 +27,7 @@
   "keyToString": {
     "Python.DF.executor": "Run",
     "Python.chatbot.executor": "Run",
+    "Python.coffeemachine.executor": "Run",
     "Python.d.executor": "Run",
     "Python.dinnerparty.executor": "Run",
     "Python.hangman.executor": "Run",
@@ -61,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dinnerparty" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coffeemachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dinnerparty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coffeemachine" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dinnerparty/dinnerparty.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coffeemachine/coffeemachine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,12 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coffeemachine" />
         <item itemvalue="Python.pencils_game" />
         <item itemvalue="Python.tictactoe" />
         <item itemvalue="Python.sdf" />
         <item itemvalue="Python.DF" />
-        <item itemvalue="Python.dinnerparty" />
-        <item itemvalue="Python.hangman" />
       </list>
     </recent_temporary>
   </component>
