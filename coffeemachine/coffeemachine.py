@@ -52,21 +52,33 @@ class CoffeeMachine:
         self.state = "waiting"
 
     def fill_water(self, amount):
+        if not amount.isdigit():
+            print("Будь ласка, введіть число.")
+            return
         self.water += int(amount)
         print("Напишіть, скільки мл молока ви хочете додати:")
         self.state = "filling_milk"
 
     def fill_milk(self, amount):
+        if not amount.isdigit():
+            print("Будь ласка, введіть число.")
+            return
         self.milk += int(amount)
         print("Напишіть, скільки грамів кавових зерен ви хочете додати:")
         self.state = "filling_beans"
 
     def fill_beans(self, amount):
+        if not amount.isdigit():
+            print("Будь ласка, введіть число.")
+            return
         self.beans += int(amount)
         print("Напишіть, скільки одноразових стаканчиків для кави ви хочете додати:")
         self.state = "filling_cups"
 
     def fill_cups(self, amount):
+        if not amount.isdigit():
+            print("Будь ласка, введіть число.")
+            return
         self.cups += int(amount)
         self.state = "waiting"
 
@@ -88,7 +100,7 @@ class CoffeeMachine:
         self.beans -= beans
         self.cups -= 1
         self.money += cost
-        print("Я маю достатньо ресурсів, щоб приготувати тобі каву.!")
+        print("Я маю достатньо ресурсів, щоб приготувати тобі каву!")
 
     def print_state(self):
         print("\nКавоварка має:")
@@ -105,3 +117,4 @@ while coffee_machine.state != "exit":
         print("Напишіть дію (buy, fill, take, remaining, exit):")
     user_input = input("> ")
     coffee_machine.process_input(user_input)
+    
