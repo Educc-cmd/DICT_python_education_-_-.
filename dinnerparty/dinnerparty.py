@@ -1,37 +1,60 @@
+def d_s():
+    print("HANGMAN")
+    print("The game will be available soon.")
+
+d_s()
+
 import random
 
-num_friends = int(input("Введіть кількість друзів, які приєднуються (включно з вами): "))
+def play():
+    words = ['python', 'java', 'javascript', 'php']
+    secret_word = random.choice(words)
+    guessed_word = ["-"] * len(secret_word)
+    attempts = 8
+    guessed_letters = set()
 
-if num_friends <= 0:
-    print("Ніхто не приєднується до вечірки")
-else:
-    friends = {}
+    while attempts > 0:
+        print("\n" + "".join(guessed_word))
+        guess = input("Введіть літеру: > ")
 
-    print("Введіть ім'я кожного друга (включно з вами), кожне з нового рядка:")
+        if len(guess) != 1:
+            print("Ви повинні ввести одну літеру")
+            continue
 
-    for _ in range(num_friends):
-        name = input("> ")
-        friends[name] = 0
+        if not guess.isalpha() or not guess.islower():
+            print("Будь ласка, введіть малу англійську літеру")
+            continue
 
-    total_amount = float(input("Введіть загальну суму: "))
+        if guess in guessed_letters:
+            print("Ви вже здогадалися, що це за літера")
+            continue
 
-    amount_per_person = round(total_amount / num_friends, 2)
+        guessed_letters.add(guess)
 
-    for friend in friends:
-        friends[friend] = amount_per_person
+        if guess in secret_word:
+            for i, letter in enumerate(secret_word):
+                if letter == guess:
+                    guessed_word[i] = guess
+        else:
+            print("Ця буква не з'являється у слові")
+            attempts -= 1
 
-    lucky_feature = input("Бажаєте використати функцію 'Хто щасливчик?' Напишіть Yes/No: ")
+        if "".join(guessed_word) == secret_word:
+            print(f"\nВи вгадали слово {secret_word}!")
+            print("Ти вижив!")
+            return
 
-    if lucky_feature.lower() == "yes":
-        lucky_one = random.choice(list(friends.keys()))
-        print(f"{lucky_one} - щасливчик!")
+    print("Ти програв!")
 
-        amount_per_person = round(total_amount / (num_friends - 1), 2)
-        for friend in friends:
-            friends[friend] = amount_per_person
-        friends[lucky_one] = 0
+def main_menu():
+    print("HANGMAN")
+    while True:
+        choice = input('Введіть «play», щоб почати гру, «exit», щоб вийти з гри: ').strip()
+        if choice == "play":
+            play()
+        elif choice == "exit":
+            break
+        else:
+            print('Будь ласка, введіть «play», щоб почати гру, або «exit», щоб вийти з неї.')
 
-    else:
-        print("Ніхто не буде щасливчиком")
-
-    print(friends)
+main_menu()
