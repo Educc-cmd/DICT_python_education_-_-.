@@ -38,11 +38,10 @@ def player_turn(name, pencils):
 
 
 def bot_turn(name, pencils):
-    # Логіка бота для примусу гравця взяти останній олівець
     if pencils % 4 == 1:
-        take = random.randint(1, min(3, pencils))  # Бот у незручній ситуації бере випадково
+        take = random.randint(1, min(3, pencils))
     else:
-        take = (pencils - 1) % 4 or 1  # Бот залишає супернику кратне 4
+        take = (pencils - 1) % 4 or 1
     print(f"{name} черга:\n{take}")
     return take
 
@@ -65,7 +64,7 @@ def main():
         pencils -= take
 
         if pencils == 0:
-            print(f"{current_player} програв!")  # Той, хто взяв останній олівець, програв
+            print(f"{current_player} програв!")
             break
 
         current_player = player1 if current_player == player2 else player2
