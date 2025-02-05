@@ -31,11 +31,13 @@ class MarkdownFormatter:
                 print("The number of rows should be greater than zero.")
             except ValueError:
                 print("The number of rows should be a number.")
+        
         list_items = []
         for i in range(num_rows):
             row_text = input(f"Row #{i + 1}: ")
             list_items.append(f"{i + 1}. {row_text}" if ordered else f"* {row_text}")
-return "\n" + "\n".join(list_items) + "\n\n"
+        
+        return "\n" + "\n".join(list_items) + "\n\n"
 
     def format_text(self, formatter, text=None):
         if formatter == "plain":
